@@ -1,4 +1,6 @@
-# Omacalc
+# fk-omacalc
+
+> Forked from omacom/omacalc (MIT). See `SIGMAOS_FORK.md`.
 
 A dead-simple calculator built with Qt Quick and C++ that automatically follows the Omarchy theme and system dark/light mode.
 
