@@ -39,7 +39,7 @@ Everything works from the keyboard too:
 - `Ctrl+C` or `Super+C` copies the result, without separators.
 - `Ctrl+V` or `Super+V` pastes a number, with or without separators.
 
-Colors follow the current SigmaOS theme (`~/.local/state/omarchy/current/theme/colors.toml`)
+Colors follow the current SigmaOS theme (`~/.local/state/sigmaos/current/theme/colors.toml`)
 and re-tint live when the theme changes. Text follows the desktop text size —
 `omarchy display text size`, or GNOME's `text-scaling-factor`.
 
