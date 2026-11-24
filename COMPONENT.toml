@@ -1,6 +1,6 @@
 [component]
-name = "omacalc"
-id = "sigmaos-omacalc"
+name = "sigmaos-calc"
+id = "sigmaos-calc"
 kind = "component"
 license = "GPL-3.0-or-later"
 
