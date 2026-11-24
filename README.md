@@ -1,15 +1,15 @@
 # fk-omacalc
 
-> Forked from omacom/omacalc (MIT). See `SIGMAOS_FORK.md`.
+> Forked from SigmaOS/omacalc (MIT). See `SIGMAOS_FORK.md`.
 
-A dead-simple calculator built with Qt Quick and C++ that automatically follows the Omarchy theme and system dark/light mode.
+A dead-simple calculator built with Qt Quick and C++ that automatically follows the SigmaOS theme and system dark/light mode.
 
 <img width="800" alt="Omacalc with the Tokyo Night theme" src="screenshots/omacalc.png" />
 
 
 ## Install
 
-Install via the Omarchy Package Repository via the `omacalc` package.
+Install via the SigmaOS Package Repository via the `omacalc` package.
 
 ## Usage
 
@@ -39,7 +39,7 @@ Everything works from the keyboard too:
 - `Ctrl+C` or `Super+C` copies the result, without separators.
 - `Ctrl+V` or `Super+V` pastes a number, with or without separators.
 
-Colors follow the current Omarchy theme (`~/.local/state/omarchy/current/theme/colors.toml`)
+Colors follow the current SigmaOS theme (`~/.local/state/omarchy/current/theme/colors.toml`)
 and re-tint live when the theme changes. Text follows the desktop text size —
 `omarchy display text size`, or GNOME's `text-scaling-factor`.
 
@@ -54,7 +54,7 @@ IBM Plex, copyright IBM Corp.
 
 ## Development
 
-`bin/build` compiles `build/omacalc` with CMake, and `bin/test` builds and runs the tests offscreen. Building needs `cmake`, `make`, and a C++ compiler on top of the Qt packages above. The package itself is built in [omarchy-pkgs](https://github.com/omacom/omarchy-pkgs/tree/master/pkgbuilds/omacalc).
+`bin/build` compiles `build/omacalc` with CMake, and `bin/test` builds and runs the tests offscreen. Building needs `cmake`, `make`, and a C++ compiler on top of the Qt packages above. The package itself is built in [omarchy-pkgs](https://github.com/AaryanSinghChauhan09/SigmaOS-pkgs/tree/master/pkgbuilds/omacalc).
 ## Documentation
 
 Wiki documentation is available in the SigmaOS Wiki Staging repository:
