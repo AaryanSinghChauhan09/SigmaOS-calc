@@ -52,7 +52,7 @@ bool gsettingsSchemeIsDark(const QVariant &value, bool *known) {
 
 qreal SystemTheme::normalizedTextScale(const QVariant &value, bool *known) {
     // GNOME's text-scaling-factor is the desktop-wide "apparent text size" knob;
-    // omarchy drives it from `omarchy display text size`, anchored so the default
+    // sigmaos drives it from `sigmaos display text size`, anchored so the default
     // 12px maps to 1.0. Ignore nonsense values and cap the range GNOME allows.
     bool ok = false;
     const qreal scale = unwrapVariant(value).toDouble(&ok);
