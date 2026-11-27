@@ -41,7 +41,7 @@ Everything works from the keyboard too:
 
 Colors follow the current SigmaOS theme (`~/.local/state/sigmaos/current/theme/colors.toml`)
 and re-tint live when the theme changes. Text follows the desktop text size —
-`omarchy display text size`, or GNOME's `text-scaling-factor`.
+`sigmaos display text size`, or GNOME's `text-scaling-factor`.
 
 ## Requirements
 
